@@ -1,0 +1,37 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Divas Cookies jQuery plugin</title>
+		<meta name="description" content="EU Cookie Law compliance jQuery plugin by Coding Divas" />
+		<meta name="author" content="Federica Sibella - Michela Chiucini" />
+		<meta name="copyright" content="Coding Divas Copyright (c) 2014-15" />
+		<!-- Divas Cookies skin -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/divascookies_style_dark_top.css" />
+
+<!-- your jQuery version -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<!-- your Divas Cookies version -->
+<script type="text/javascript" src="js/jquery.divascookies-0.6.min.js"></script>
+		<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+		<link rel="stylesheet" href="css/ie.css" />
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Header and Nav -->
+		<header class="site-header" role="banner">
+			<h1>Divas Cookies demo</h1>
+<a href="test2.html">load</a>
+		</header>
+	<script type="text/javascript">
+			$(document).ready(function() {
+				$.DivasCookies();
+			});
+		</script>
+		<script type="text/javascript" src="js/prism.js"></script>
+	</body>
+</html>
