@@ -50,7 +50,7 @@
                 <p><?php echo of_get_option('footerabttext',__('Donec ut ex ac nulla pellentesque mollis in a enim. Praesent placerat sapien mauris, vitae sodales tellus venenatis ac. Suspendisse suscipit velit id ultricies auctor. Duis turpis arcu, aliquet sed sollicitudin sed, porta quis urna. Quisque velit nibh, egestas et erat a, vehicula interdum augue. Morbi ut elementum justo. Sed eu nibh orci. Vivamus elementum erat orci. Curabitur consequat convallis dapibus.','skt-white')); ?></p>
             </div>
             
-            <div class="footer-col-1">
+            <!-- <div class="footer-col-1">
             	<h2><?php echo of_get_option('recenttitle',__('Recent Posts','skt-white')); ?></h2>
                 <ul class="recent-post">
                 	<?php $query =  new wp_query(array('posts_per_page'   => 2)); ?>
@@ -60,7 +60,7 @@
                     <?php endwhile; ?>
                     <?php wp_reset_query(); ?>
                 </ul>
-            </div>
+            </div> -->
             
             <div class="footer-col-3">
             	<h2><?php echo of_get_option('addresstitle',__('SKT White','skt-white')); ?></h2>

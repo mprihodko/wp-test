@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	$('.menu-item a').click(function(){
+	$('.menu-item span').click(function(){
 		var link=$(this).text();		
 		if(link=='Home'){
 			link="slider";

@@ -39,9 +39,13 @@
             <a class="toggleMenu" href="#"><?php _e('Menu','skt-white'); ?></a>
             </div><!-- toggle -->
             <div class="nav">
-            <?php 
-                $walker = new mainMenuWalker ();
-                wp_nav_menu ( array ( 'walker' => $walker ) );
+            <?php
+                if(is_page('home')){ 
+                    $walker = new mainMenuWalker ();
+                    wp_nav_menu ( array ( 'walker' => $walker ) );
+                }else{
+                    wp_nav_menu ( array ( 'menu' => 'Menu 2') ); 
+                }
             ?>
 				<?php //wp_nav_menu( array('theme_location'  => 'primary') ); ?>
             </div><!-- nav --><div class="clear"></div>

@@ -112,6 +112,7 @@ a.arrow-down { display: block; -webkit-transition: none; -moz-transition: none; 
 .main-container{margin:0; padding:0;}
 body.home .fixed, body.blog .fixed{position:fixed !important; top:0 !important; margin:0; padding:0; z-index:100;}
 .fixed .header-inner .nav ul li a { padding: 16px !important;}
+.fixed .header-inner .nav ul li span { padding: 16px !important;}
 .fixed .header-inner .nav ul li:hover ul{ top:45px !important;}
 .fixed .header-inner .logo{ margin-top:12px !important;}
 .header .header-inner{ margin:0 auto; padding:0; position:relative; width:1160px;}
@@ -125,10 +126,12 @@ body.home .fixed, body.blog .fixed{position:fixed !important; top:0 !important; 
 .header .header-inner .nav ul { float:right; margin:0; padding:0; font-family:'Open Sans', sans-serif; font-size:13px; font-weight:600;}
 .header .header-inner .nav ul li{ display:inline-block; margin:0; text-transform:uppercase; position:relative;}
 .header .header-inner .nav ul li a{ color:#3e3e3e; padding:35px 13px; display:block;}
+.header .header-inner .nav ul li span{ color:#3e3e3e; padding:35px 13px; display:block;}
 .header .header-inner .nav ul li a:hover{color:#3e3e3e !important; background-color:#e6e6e6;}
+.header .header-inner .nav ul li span:hover{color:#3e3e3e !important; background-color:#e6e6e6; cursor: pointer;}
 @media screen and (min-width:999px){
 .header .header-inner .nav ul li ul{display:none; z-index:2;}
-.header .header-inner .nav ul li:hover > ul{display:block; background:#ffffff; width:200px; position:absolute; top:85px; left:0; text-align:left; box-shadow:5px 5px 5px #666; }
+.header .header-inner .nav ul li:hover > ul{display:block; background:#ffffff; width:200px; position:absolute; top:90px; left:0; text-align:left; box-shadow:5px 5px 5px #666; }
 .header .header-inner .nav ul li ul li{display:block; position:relative; float:none; }
 .header .header-inner .nav ul li ul li a{color:#000; display:block; padding-top:10px; padding-bottom:10px; border-top:1px #cccccc solid;}
 .header .header-inner .nav ul li:hover ul li ul{display:none;}

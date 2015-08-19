@@ -301,7 +301,7 @@ class mainMenuWalker extends Walker_Nav_Menu {
     if(!is_page('home')){
     	if ( $item_url != $current_url ) $item_output.= '<a'. $attributes .'>'.$item->title.'</a>';
     }else{
-    	$item_output.= '<a'. $attributes .'>'.$item->title.'</a>';
+    	$item_output.= '<span'. $attributes .'>'.$item->title.'</span>';
 	}
     // else $item_output.= $item->title;
 
