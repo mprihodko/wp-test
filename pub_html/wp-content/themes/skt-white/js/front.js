@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 			link="slider";
 		}	
 		$('html, body').animate({
-			scrollTop: $("#"+link).offset().top-100
+			scrollTop: $("#"+link).offset().top-80
 		}, 2000);
 			
 	});

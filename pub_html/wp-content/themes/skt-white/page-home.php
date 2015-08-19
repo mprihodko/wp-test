@@ -191,7 +191,7 @@ get_header();
                         				</div><?php if($k%4==0){ ?><div class="clear"></div><?php } ?>
                     			<?php } ?>
                                 <div class="home-pagination">
-                               			<?php skt_white_pagination(); ?>
+                               			<?php //skt_white_pagination(); ?>
                                </div><!-- home-pagination -->
                     			<?php wp_reset_query(); ?>
                      </div><!-- latest-news -->

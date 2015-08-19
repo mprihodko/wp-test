@@ -2,7 +2,7 @@ jQuery(window).bind('scroll', function() {
 	var skt_white_scroll = jQuery(window).width();
 	if( skt_white_scroll > 979 ){
 		var navHeight = jQuery( window ).height() - 0;
-		if (jQuery(window).scrollTop() > 850) {
+		if (jQuery(window).scrollTop() > 700) {
 			jQuery('.header').addClass('fixed');
 		}else {
 			jQuery('.header').removeClass('fixed');
